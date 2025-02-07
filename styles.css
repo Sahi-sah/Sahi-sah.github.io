@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(45deg, #00ff22, #397c44); 
+    color: white;
+}
+
+body {
+    background: url('loop-background-neon-retro-wave-80s-style-video.jpg') no-repeat center center/cover;
+    color: rgba(247, 242, 246, 0.952);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(96, 44, 138, 0.651); /* Warna hitam transparan */
+    z-index: -1;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(-45deg, #9c3554c7, #837f78f6, #0fdf5f);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+}
+
+header {
+    background-color: #1455aaa2;
+    color: white;
+    padding: 20px;
+}
+
+.hero {
+    background: url('d305f4f9d7c5d03b8ee672f395efc17a.jpg') no-repeat center center/cover;
+    padding: 50px;
+    color: white;
+}
+
+.hero .btn {
+    background: #00ccff;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.about, .gallery, .testimonials, .order-form {
+    padding: 30px;
+}
+
+.images img {
+    width: 150px;
+    margin: 10px;
+}
+
+.order-form input, .order-form select {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 80%;
+}
+
+button {
+    background: #0ca4d3ec;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
